@@ -1,10 +1,10 @@
 ---
 layout: post
-title: mybatis sqlsession 填个小坑
+title: 如何使用 Jacman 主题
 tags:
-- mybatis
+- Jekyll
 - java
-categories: mybatis
-description: 接手的项目中，数据库写效率不高，查代码发现是sql的基类写法错误，翻阅了mybatis的文档，发现sqlsession用法有问题
+categories: Jekyll
+description: Jacman 是一款扁平化，有着响应式设计的 Jekyll 主题。本站正式使用了 Jacman 主题。Jacman 基于 Jacman 的 Hexo 主题修改而来。你可以前往本站和 Demo 预览更多关于本主题的更多效果。如果你有任何问题或意见欢迎到 GitHub 发表 issue。
 ---
 ##主题介绍
