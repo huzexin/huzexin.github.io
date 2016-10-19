@@ -1,0 +1,10 @@
+---
+layout: post
+title: Sqlsession 的正确用法
+tags:
+- mysql
+- mybatis
+categories: mysql
+description: SqlSessionFactoryBuilder，SqlSessionFactory，SqlSession的生命周期和正确使用方法
+---
+##
