@@ -6,7 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
 assets: /assets
-baseurl: http://huzexin.github.io
+baseurl: https://huzexin.github.io/
 
 # pagination
 paginate: 10
