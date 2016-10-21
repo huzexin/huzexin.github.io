@@ -8,10 +8,10 @@ categories: sqlite
 description: 
 ---
 ##背景
-sqlite是个轻量级的数据库，本身在其它平台上有比较大的优势，目前项目中存贮逻辑比较多，wince的方案也是sqlite，看文档iOS系统已经兼容了。所以想在symbian上也用sqlite，保持方案的一致性。结果symbian不支持sqlite。客观因素就是symbian C++ 标准早于标准C++的，不兼容的地方比较多。
+sqlite是个轻量级的数据库，本身在其它平台上有比较大的优势，目前项目中存贮逻辑比较多，wince的方案也是sqlite，看文档iOS系统已经兼容了。所以想在symbian上也用sqlite，保持方案的一致性。symbian系统不支持sqlite，需要自己移植。
 
 ##移植方案
-整体的思路就是基于sqlite 3.0, 把文件读写的接口改成symbian的。有些涉及到dl的接口可以不用实现。实现基本的接口即可。
+整体的思路就是基于sqlite 3.0, 把文件读写的接口改成symbian的。有些涉及到dl的接口可以不用实现。实现基本的接口即可。因为本身symbian支持C语言，sqlite 本身也是C的。所以移植过程中，没有遇到兼容的问题。
  
 **但是需要注意的是，别做成dll,只能做成static lib. dll里面不支持static，如果你非要做成dll,那需要把所有的static放到tls里面。我尝试过，逻辑比较多。而且改动较大。所以static lib就可以了**
  
