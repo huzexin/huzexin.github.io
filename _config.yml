@@ -9,7 +9,7 @@ assets: /assets
 baseurl: https://huzexin.github.io/
 
 # pagination
-paginate: 10
+paginate: 20
 
 # Markdown Processors
 markdown: redcarpet
@@ -110,7 +110,7 @@ links:
 
 
 #### Comment
-duoshuo_shortname: arthurgitpages ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: ## arthurgitpages ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
