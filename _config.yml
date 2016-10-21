@@ -6,7 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
 assets: /assets
-baseurl: 
+baseurl: http://huzexin.github.io
 
 # pagination
 paginate: 10
@@ -110,7 +110,7 @@ links:
 
 
 #### Comment
-duoshuo_shortname: arthurgitpages   ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: arthurgitpages ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
