@@ -1,4 +1,13 @@
-## ##背景
+---
+layout: post
+title: NSThread runloop | iOS上如何实现长线任务
+tags:
+- NSThread runloop
+- iOS 长线任务
+categories: iOS
+description: 
+---
+##背景
 
   手机导航过程中，需要一直不停的建模以及绘制到内存，需要能在iPhone系统中开一个长线任务，去执行这个数据地图建模。但是目前ios本身不支持长线任务的接口。所以需要自己想办法实现。
 
