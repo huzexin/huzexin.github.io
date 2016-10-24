@@ -27,9 +27,9 @@ redcarpet:
 title : Arthur's tech blog
 tagline: 杂工 | 太阳之下，并无新事
 
-theme : jacman
-  stylus:
-    compress: true
+
+theme_color: 
+  theme: '#2ca6cb'
 
 defaults:
   -
