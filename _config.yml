@@ -27,6 +27,10 @@ redcarpet:
 title : Arthur's tech blog
 tagline: 杂工 | 太阳之下，并无新事
 
+theme : jacman
+  stylus:
+    compress: true
+
 defaults:
   -
     scope:
@@ -105,8 +109,7 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+  stackoverflow: https://stackoverflow.com
 
 
 
